@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto Momardi</title>
+    <link rel="stylesheet" href="../Styles/Styles.css" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div>
+        <a class="brand" href="../Inicio/Index.html" aria-label="Ir al inicio">
+          <img src="../Imagenes/LogoM.png" alt="Momardi" />
+        </a>
+      </div>
+      <nav class="navbar" aria-label="Navegacion principal">
+        <ul class="nav-links">
+          <li>
+            <a class="nav-link" href="../Inicio/Index.html" aria-current="page"
+              >Inicio</a
+            >
+          </li>
+          <li class="dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="../Catalogo/catalogo.html"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Catalogo
+              <svg class="chevron" viewBox="0 0 16 16 " aria-hidden="true">
+                <path d="M3.5 6l4.5 4 4.5-4" />
+              </svg>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="../Catalogo/catalogo.html#laminas">Laminas</a>
+              </li>
+              <li>
+                <a href="../Catalogo/catalogo.html#pegatinas">Pegatinas</a>
+              </li>
+              <li><a href="../Catalogo/catalogo.html#textil">Textil</a></li>
+            </ul>
+          </li>
+          <li>
+            <a class="nav-link active" href="../Contacto/contacto.html"
+              >Contacto</a
+            >
+          </li>
+        </ul>
+
+        <div class="nav-actions">
+          <a
+            class="icon-button"
+            href="../WorkingOnIt/working.html"
+            aria-label="Ver carrito de compras"
+          >
+            <img
+              class="icon-button-carrito"
+              src="../Imagenes/carrito.png"
+              alt="Carrito de compras"
+            />
+          </a>
+          <a
+            class="icon-button"
+            href="../WorkingOnIt/working.html"
+            aria-label="Iniciar sesion"
+          >
+            <img
+              class="icon-button-login"
+              src="../Imagenes/Login.png"
+              alt="Inicio sesión"
+            />
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <div class="contacto">
+      <div class="formulario-contacto">
+        <h1>¡Contacta con nuestro equipo!</h1>
+        <p>
+          Pregunta dudas acerca de las impresiones, pedidos, envios o incluso
+          propuestas. Te responderemos en menos de 24h
+        </p>
+        <br />
+        <form action="#" method="post">
+          <div>
+            <label for="nombre">Nombre</label><br />
+            <input type="text" id="nombre" name="nombre" required /><br /><br />
+          </div>
+          <div>
+            <label for="correo">Correo</label><br />
+            <input
+              type="email"
+              id="correo"
+              name="correo"
+              required
+            /><br /><br />
+          </div>
+          <div>
+            <label for="mensaje">Mensaje</label><br />
+            <textarea id="mensaje" name="mensaje" rows="5" required></textarea
+            ><br /><br />
+
+            <button class="boton-principal" type="submit">Enviar</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="redes-sociales">
+        <div class="contacto-info">
+          <img src="../Imagenes/Instagram.avif" alt="instagram" class="rrss" />
+          <a href="https://www.instagram.com/moni.mardi/" target="_blank"
+            >Visita nuestro Instagram</a
+          >
+        </div>
+        <br />
+
+        <div class="contacto-info">
+          <img src="../Imagenes/icono-gmail.png" alt="gmail" class="rrss" />
+          <p><a href="mailto:createdbymd@gmail.com">Enviar correo</a></p>
+        </div>
+        <br />
+        <div class="contacto-info">
+          <img src="../Imagenes/icono-whasapp.png" alt="phone" class="rrss" />
+          <a href="https://wa.me/666655522" target="_blank"
+            >Contáctanos por Whatsapp</a
+          >
+        </div>
+        <br /><br />
+        <p>Visitanos en: Av Olimpica 32, Mostoles (Madrid)</p>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.8987444052245!2d-3.8850100882152385!3d40.33100156073371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd418e738beea31d%3A0xb30ed42c6383396e!2sM%C3%B3stoles-El%20Soto!5e1!3m2!1ses!2ses!4v1795290101299!5m2!1ses!2ses"
+          width="400"
+          height="200"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="strict-origin-when-cross-origin"
+        ></iframe>
+      </div>
+    </div>
+    <footer class="site-footer">
+      <p>&copy; 2026 Momardi. Todos los derechos reservados.</p>
+      <a
+        class="social-link"
+        href="https://www.instagram.com/moni.mardi/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Instagram de Momardi"
+      >
+        <img src="../Imagenes/Instagram.avif" />
+      </a>
+    </footer>
+  </body>
+</html>

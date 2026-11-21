@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detalle del producto Momardi</title>
+    <link rel="stylesheet" href="../Styles/Styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div>
+        <a class="brand" href="../Inicio/Index.html" aria-label="Ir al inicio">
+          <img src="../Imagenes/LogoM.png" alt="Momardi" />
+        </a>
+      </div>
+      <nav class="navbar" aria-label="Navegacion principal">
+        <ul class="nav-links">
+          <li>
+            <a
+              class="nav-link action-volver"
+              href="../Catalogo/catalogo.html"
+              aria-current="page"
+            >
+              < Volver al catálogo</a
+            >
+          </li>
+        </ul>
+
+        <div class="nav-actions">
+          <a
+            class="icon-button"
+            href="../WorkingOnIt/working.html"
+            aria-label="Ver carrito de compras"
+          >
+            <img
+              class="icon-button-carrito"
+              src="../Imagenes/carrito.png"
+              alt="Carrito de compras"
+            />
+          </a>
+          <a
+            class="icon-button"
+            href="../WorkingOnIt/working.html"
+            aria-label="Iniciar sesion"
+          >
+            <img
+              class="icon-button-login"
+              src="../Imagenes/Login.png"
+              alt="Inicio sesión"
+            />
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="detalle-producto">
+      <div class="detalle-imagen">
+        <img src="../Imagenes/Foto1.png" alt="Lámina ilustrada" />
+      </div>
+
+      <div class="detalle-info">
+        <h1>Lámina 001</h1>
+        <p class="detalle-precio">12€</p>
+        <p>
+          Lámina ilustrada impresa en papel fotográfico de alta calidad.
+          Disponible en tamaño A4 o A5.
+        </p>
+
+        <label for="tamano">Tamaño</label>
+        <select id="tamano" name="tamano">
+          <option value="a4">A4</option>
+          <option value="a5">A5</option>
+        </select>
+
+        <label for="empaquetado">Empaquetado</label>
+        <select id="empaquetado" name="empaquetado">
+          <option value="normal">Normal</option>
+          <option value="regalo">Para regalo</option>
+        </select>
+
+        <p><strong>Envio:</strong> Disponible a domicilio.</p>
+
+        <button class="detalle-carrito" type="button">
+          <img src="../Imagenes/carrito.png" alt="" />
+          Añadir al carrito
+        </button>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Momardi. Todos los derechos reservados.</p>
+      <a
+        class="social-link"
+        href="https://www.instagram.com/moni.mardi/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Instagram de Momardi"
+      >
+        <img src="../Imagenes/Instagram.avif" alt="Instagram" />
+      </a>
+    </footer>
+  </body>
+</html>
